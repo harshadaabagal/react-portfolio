@@ -1,24 +1,25 @@
-import React from 'react'
-import Header from './components/Header/header.jsx'
-import Nav from './components/Nav/Nav.jsx'
-import About from './components/About/About.jsx'
-import Experience from './components/Experience/Experience.jsx'
-import Services from './components/Services/Services.jsx'
-import Portfolio from './components/Portfolio/Portfolio.jsx'
-import Contact from './components/Contact/Contact.jsx'
-import Footer from './components/Footer/Footer.jsx'
+import React from 'react';
+import Contact from './components/contact/Contact';
+import Experience from './components/experience/Experience';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Intro from './components/intro/Intro';
+import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
+import Topbar from './components/topbar/Topbar';
+
 
 const App = () => {
   return (
     <>
-      <Header></Header>
-      <Nav></Nav>
-      <About></About>
-      <Experience></Experience>
-      <Services></Services>
-      <Portfolio></Portfolio>
-      <Contact></Contact>
-      <Footer></Footer>
+      <Header />
+      <Topbar />
+      <Intro />
+      <Experience />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   )
 }
